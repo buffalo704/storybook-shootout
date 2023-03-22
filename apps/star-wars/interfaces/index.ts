@@ -9,6 +9,16 @@ export type Person = {
   gender: string
 }
 
+export type Movie = {
+  id: string
+  name: string
+  releaseDate: string
+  genres: string
+  imdbRating: string
+  overview: string
+  runtime: string
+  director: string
+}
 export type ResponseError = {
   message: string
 }
